@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miniblog</title>
+    <link rel="stylesheet" href="blog1style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <div class="welcome-quote">
+            <h1>"Stay Hngry.Stay Foolish - Steve Jobs" </h1>
+        </div>
+    </header>
+    <hr>
+    <div class="wip">
+        <i>No jazzy presentation.Designs are kept minimal for faster loading,because delay is annoying &#128521;</i> 
+    
+    </div>
+     <hr>
+
+     <section>
+         <h2>javaScript Troubleshooting: Funtion returning "Undefined"</h2>
+         <div class="content">
+             <h3>Why is my console returning "undefined" even though the program is running fine? &#128531;</h3>
+             <p>
+                First,let us understand why is the console showing an unneccesary "undefined". Functions always return a value. In JavaScript,if no return value is specifies,the function will return "undefined".
+            </p>
+
+            <img src="images/repl undefined.jpg" alt="" class="image">
+
+            <p>Since we now know the "why" of the problem,it is easier to get to the "how?" of the solution. Let's get to it. Before closing the function, just before the closing brackets , just add another line in the function declaration,specifying the return value.</p>
+            <span>Example::</span> 
+             <p>
+             function(parameterOne , parameterTwo){
+                 //conditions var sum = parameterOne + parameterTwo
+                 //conditions
+                 return '-----'/ return sum
+             }
+             by this the function returns '-----' and the sum according to what is specified.
+               </p>
+
+               <span><strong>NOTE:</strong></span>
+               <p>If the return value is something you want the console to prompt use the inerted colons-> '' or "" . If the return function is a variable defined before,in the function,do not use the colons.Using colons to declare the variable will just return the name of the variable.</p>
+
+            <p>Pardon me for the bad quality of the picture. &#128517;</p>
+
+            </div>
+
+     </section>
+     <hr>
+     <section class="facts">
+         <div class="letters">
+            <h2>DID YOU KNOW?</h2>
+
+            <p class="wow"> The word computer “bug” was inspired by a real bug. It was founded by Grace Hopper in 1947.</strong></p>
+       
+            <p>Interesting,isn't it? If you are interested to read more about it,please <a href="https://interestingengineering.com/the-origin-of-the-term-computer-bug#:~:text=On%20the%209th%20of%20September,used%20to%20describe%20the%20incident." target="_blank"> click here.</a>  </p>
+         </div>
+         
+        
+        <div class="bug">
+            <img src="images/bug.jpeg" alt="" >></div> 
+         </section>
+
+         <footer class="footer">
+            <div class="footer-header">Catch me up on your favorite social media platform</div>
+            <ul class="social-links list-non-bullet">
+                <li class="list-item-inline">
+                    <a class="link" href="https://www.instagram.com/_scorpiohnoo_?r=nametag">
+                        <i class="fab fa-instagram"> Instagram</i> 
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://twitter.com/Dwaipay38503170?s=09">
+                        <i class="fab fa-twitter"> Twitter</i>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://github.com/Dtech-Dbug/DwaipayanChakroborty">
+                        <i class="fab fa-github"> Github</i>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="/">
+                        You can also write to me:  <i class="fas fa-envelope"> heydwaipayanhere@gmail.com</i>
+                    </a>
+                </li>
+                <i class="area">Kolkata,West Bengal,India</i>   
+                <hr>
+                <li class="list-item-inline">
+                    <a href="#top">Go To Top.</a>
+                    </li>
+                    <li class="list-item-inline">
+                        <a href="index.html">Go To Home.</a>
+s                        </li>
+                
+            </ul>
+        </footer>
+    
+
+    
+</body>
+</html>

@@ -53,7 +53,7 @@ nav ul li a{
      animation-name: animate;
      animation-duration: 15s;
      animation-iteration-count: infinite;
-     transition: 2s;
+     
      
     
  }
@@ -63,16 +63,16 @@ nav ul li a{
          transform: translateX(0%);
      }
      25% {
-         transform: translateX(25%);
+         transform: translateX(15%);
      }
      50%{
-         transform: translateX(-25%);
+         transform: translateX(-15%);
      }
      75%{
-         transform: translateX(-25%);
+         transform: translateX(-15%);
      }
      90%{
-         transform: translateX(25%);
+         transform: translateX(15%);
      }
     
  }
@@ -81,8 +81,7 @@ nav ul li a{
      padding: 2rem, 0rem;
      display: flex;
      justify-content: center;
-     background-color: grey;
-     overflow: auto;
+     background-color: grey;     overflow: auto;
     }
  
  
@@ -101,8 +100,10 @@ nav ul li a{
  .skills{
      border: 2px solid black;
      padding: 1rem ,1.5rem;
+     margin-left: 2rem;
      
  }
+ 
  .skills h1{
      text-decoration: underline;
  }

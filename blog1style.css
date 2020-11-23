@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@1,700&family=Nerko+One&display=swap');
+font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Nerko One', cursive;
+
+
+
+body{
+    margin: 0rem
+    padding: 0rem;
+}
+header .welcome-quote{
+    text-align: center;
+}
+header .welcome-quote h1{
+   font-family: 'Merriweather', serif; 
+   text-align: center;}
+
+   .wip{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: larger;}
+    section{
+        margin-left: 2rem;
+    }
+
+    section h2{
+        text-decoration: underline;
+    }
+    section p{
+        font-family: 'Merriweather', serif;
+    }
+    .facts {
+        font-family: 'Nerko One', cursive;
+        background-color: grey;
+        margin-left: 0.3rem;
+        padding-left: 1rem;
+    }
+    .facts img{
+        width: 200px;
+        height: 320px;
+        
+    }
+    .facts{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 1.5rem;
+    }
+        
+    
+
+   section span{
+       text-decoration: underline;
+   }
+    section .content img{
+        width: 650px;
+        height: 500px;
+    }
+     
+    .footer{
+    
+        text-align: center;
+        background: linear-gradient(to right,rgb(10, 10, 10),rgba(10, 10, 10,0.9));
+        object-fit: cover;
+    }
+    .footer-header{font-family: 'Lobster', cursive;
+        color: white;
+        padding-top: 1rem;
+        font-size: larger;
+    
+    }
+    .footer ul li{
+        list-style: none;
+    }
+    .footer ul{
+        padding-bottom: 1rem;
+    }
+    .footer ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .footer .area{
+        color: white;
+    }
+    
