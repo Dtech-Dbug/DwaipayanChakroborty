@@ -8,9 +8,13 @@ body{
     padding: 0rem;
     margin: 0rem;
 }
+body{
+    margin-left: 1.5rem;margin-right: 1.5rem;
+}
 
 nav{
     background: linear-gradient(to right,rgb(10, 10, 10),rgba(10, 10, 10,0.9));
+    margin-left: 1.5rem;margin-right: 1.5rem;
 }
 nav .nav-brand{
     color: white;
@@ -49,6 +53,7 @@ nav ul li a{
      animation-name: animate;
      animation-duration: 15s;
      animation-iteration-count: infinite;
+     transition: 2s;
      
     
  }
@@ -58,16 +63,16 @@ nav ul li a{
          transform: translateX(0%);
      }
      25% {
-         transform: translateX(35%);
+         transform: translateX(25%);
      }
      50%{
-         transform: translateX(-35%);
+         transform: translateX(-25%);
      }
      75%{
-         transform: translateX(-35%);
+         transform: translateX(-25%);
      }
      90%{
-         transform: translateX(35%);
+         transform: translateX(25%);
      }
     
  }
@@ -76,7 +81,7 @@ nav ul li a{
      padding: 2rem, 0rem;
      display: flex;
      justify-content: center;
-     background-color: burlywood;
+     background-color: grey;
      overflow: auto;
     }
  
@@ -208,5 +213,8 @@ nav ul li a{
 }
 .footer ul li a{
     text-decoration: none;
+    color: white;
+}
+.footer .area{
     color: white;
 }

@@ -12,6 +12,11 @@ body{
 
 nav{
     background: linear-gradient(to right,rgb(10, 10, 10),rgba(10, 10, 10,0.9));
+    margin-left: 0.5rem;margin-right: 1.5rem;
+}
+body{
+    margin-left: 3rem;margin-right: 1.5rem;
+    
 }
 nav .nav-brand{
     color: white;
@@ -122,6 +127,7 @@ color: white;
 
         .image{
             text-align: center;
+            overflow: auto;
         }
  .image p{
     font-family: 'Merriweather', serif;
@@ -148,6 +154,9 @@ color: white;
 }
 .footer ul li a{
     text-decoration: none;
+    color: white;
+}
+.footer .area{
     color: white;
 }
 

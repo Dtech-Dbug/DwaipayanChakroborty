@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@1,700&family=Nerko+One&display=swap');
+/*font-family: 'Lobster', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Nerko One', cursive;*/
+body{
+    padding: 0rem;
+    margin: 0rem;
+}
+
+nav{
+    background: linear-gradient(to right,rgb(10, 10, 10),rgba(10, 10, 10,0.9));
+    margin-left: 3rem;margin-right: 1.5rem;
+}
+nav .nav-brand{
+    color: white;
+    padding-top: 1rem;
+    margin-left: 3rem;
+    
+    
+}
+nav ul li{
+    display: inline;
+    padding: 2.5rem;
+    text-align: justify;
+}
+nav ul{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Nerko One', cursive;
+    font-size: larger;
+}
+/*.welcome {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: cyan;
+}*/
+
+header{
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+}
+
+header .welcome-text{
+    text-align: center;
+    
+}
+header .welcome-text h1{
+   font-family: 'Merriweather', serif;
+}
+.contents{
+   
+    margin-left: 1.5rem;padding-left: 1.5rem;padding-right: 1.5rem;
+}
+.contents .date{
+    text-decoration: underline;
+}
+.blog1{
+    background-color: grey;
+}
+.blog1 .read{
+    background-color: honeydew;
+    color: black;
+        text-decoration: none;
+        padding: 0.2rem , 0.2rem;
+        border-radius: 3rem;
+        font-family: 'Merriweather', serif;
+        
+        font-weight: 100;
+}
+.blog1 h2{
+    font-family: 'Merriweather', serif;
+}
+
+
+.blog2 .read2{
+    background: linear-gradient(to right,rgb(28, 28, 25),rgba(28, 28, 25,0.8)); 
+    color: white;
+     text-decoration: none;
+     padding: 0.2rem , 0.2rem;
+     border-radius: 3rem;
+     font-family: 'Merriweather', serif;
+     
+     font-weight: 100;
+}
+
+
+.blog2 h2{
+    font-family: 'Merriweather', serif;
+}
+.blog2 strong{
+    text-decoration: underline;
+}
+
+#image{
+    text-align: center;
+    background-color: grey;
+    margin-left: 3rem;margin-right: 2.5rem;
+    
+}
+
+
+.footer{
+    
+    text-align: center;
+    background: linear-gradient(to right,rgb(10, 10, 10),rgba(10, 10, 10,0.9));
+    object-fit: cover;
+}
+.footer-header{font-family: 'Lobster', cursive;
+    color: white;
+    padding-top: 1rem;
+    font-size: larger;
+
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul{
+    padding-bottom: 1rem;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .area{
+    color: white;
+}
+
+
+
