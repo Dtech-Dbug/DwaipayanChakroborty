@@ -219,3 +219,41 @@ nav ul li a{
 .footer .area{
     color: white;
 }
+
+@media only screen and (max-width: 320px) {
+    nav ul li{
+        display: block;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        overflow: auto;
+        
+    }
+    .intro img{
+        width: 300px;
+        padding-right: 4rem;
+    }
+    .about-me{
+        object-fit: contain;
+        overflow-wrap: break-word;
+        
+        
+        
+        
+    }
+    .skills{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .test123{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
