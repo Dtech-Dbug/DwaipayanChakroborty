@@ -32,6 +32,9 @@ header .welcome-quote h1{
     section p{
         font-family: 'Merriweather', serif;
     }
+    .note{
+        text-decoration: underline;
+    }
     .facts {
         font-family: 'Nerko One', cursive;
         background-color: grey;
