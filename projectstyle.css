@@ -157,6 +157,34 @@ color: white;
     color: white;
 }
 .footer .area{
-    color: white;
+    color: white;}
+    
+    @media only screen and (max-width: 600px) {
+
+        body{padding: 0rem,1rem}
+    nav ul li{
+        display: block;
+    }
+    header h1{
+        font-size: 1.7em;
+    }
+
+    footer{
+        text-align: center;
+        font-size: 0.8em;
+       
+
+    }
+    .footer ul {
+        padding-left: 1rem;
+    }
+    footer .footer-header{
+        padding: orem,1rem;
+    }
+    .image img{
+        width: 280px;
+    }
 }
+
+
 

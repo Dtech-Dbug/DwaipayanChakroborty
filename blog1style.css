@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital,wght@1,700&family=Nerko+One&display=swap');
-font-family: 'Lobster', cursive;
+/*font-family: 'Lobster', cursive;
 font-family: 'Merriweather', serif;
-font-family: 'Nerko One', cursive;
+font-family: 'Nerko One', cursive;*/
 
 
 
@@ -89,3 +89,48 @@ header .welcome-quote h1{
         color: white;
     }
     
+    @media only screen and (max-width: 600px)    {
+
+        .welcome-quote{
+            font-size: 0.7em
+        }
+        body{
+            display: inline
+            
+         }
+         section{
+             font-size: 16px;
+         }
+
+        .content{
+            overflow: hidden;
+        }
+         
+          .wip{
+              font-size: 12px;
+          }
+        
+        
+          
+        
+         footer{
+            body{
+                display: inline
+             }
+              header{
+                  font-size: 0.7em;
+              }
+              .wip{
+                  font-size: 14px;
+              }
+             margin-left: 1.5rem;
+             margin-right: 1.1rem;
+            
+         }
+         footer .footer-header{
+             padding: 0rem,0.5rem;
+         }
+         footer ul{
+             transform: translateX(-7px);
+         }
+     }

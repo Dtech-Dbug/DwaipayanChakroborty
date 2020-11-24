@@ -219,3 +219,80 @@ nav ul li a{
 .footer .area{
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    nav ul li{
+        display: block;
+    }
+    nav ul  {
+       text-align: center;
+    }
+    nav{
+        margin: 1rem,1.5rem;
+        height: auto
+    }
+    header h1{
+        font-size: 1.7em;
+    }
+    body{
+        text-align: center;
+        margin-right: 2em;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        object-fit: contain;
+        overflow: auto
+        
+       
+        
+    }
+    .intro img{
+        width: 230px;
+       
+        padding-right: 3rem;
+        border-radius: 65%;
+        
+       
+        
+    }
+    .about-me{
+        object-fit: contain;
+        overflow-wrap: break-word;
+        
+        
+        
+        
+    }
+    .skills{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: 1em;
+        margin-right: 0.7em;
+    }
+    .test123{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer ul{
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+    .skills h2{
+        font-size: 24px;
+    }
+    .skills span{
+        font-size: 16px;
+    }
+    .wip{
+        animation-play-state: paused;
+        text-align: center;
+        font-size: 12px;
+    }
+}
