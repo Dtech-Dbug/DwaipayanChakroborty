@@ -160,6 +160,8 @@ color: white;
     color: white;}
     
     @media only screen and (max-width: 600px) {
+
+        body{padding: 0rem,1rem}
     nav ul li{
         display: block;
     }

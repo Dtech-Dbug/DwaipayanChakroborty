@@ -132,9 +132,10 @@ header .welcome-text h1{
     color: white;
 }
 
-@media only screen and (max-width: 320px){
-    nav ul {
-       text-align: left;
+@media only screen and (max-width: 600px){
+    nav ul li {
+        display: block;
+       
     }
 
     header h1{
@@ -147,6 +148,10 @@ header .welcome-text h1{
     .footer ul{
         padding-left: 1rem;
         padding-right: 1rem;
+}
+#image img{
+    width: 280px;
+}
 }
 
 

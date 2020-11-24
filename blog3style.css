@@ -56,7 +56,7 @@ header  h1{
         color: white;
 
     
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 600px){
     
   body{
       text-align: center;
