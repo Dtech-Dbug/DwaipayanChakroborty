@@ -5,8 +5,7 @@
 font-family: 'Merriweather', serif;
 font-family: 'Nerko One', cursive;*/
 
-
-
+* { margin:0; padding:0; box-sizing:border-box;}
 
 
 header {
@@ -53,25 +52,43 @@ header  h1{
         color: white;
     }
     .footer .area{
-        color: white;
+        color: white;}
 
-    
-@media only screen and (max-width: 600px){
-    
-  body{
-      text-align: center;
-  }
-  section{
-      overflow-wrap: break-word;
-      font-size: 16px;
-      padding: 1rem,1.5rem;
-  }
-  .footer{
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-.footer ul{
-    padding-left: 1rem;
-    padding-right: 1rem;
+        @media only screen and (max-width: 600px)    {
 
-}
+           body{
+             margin:0; padding:0; box-sizing:border-box;
+             
+           }
+           body{
+              display: inline
+           }
+            header{
+                font-size: 0.7em;
+            }
+            .wip{
+                font-size: 14px;
+            }
+            
+            .contents{
+                font-size: 16px;
+                overflow-wrap: break-word;
+            }
+            body{
+                width: 250px;
+                margin: 0rem,1rem;
+               
+            }
+            section{
+                padding-right: 1rem;
+                font-size: 
+            }
+            footer{
+                margin-left: 1.5rem;
+                margin-right: 1.1rem;
+                text-align: center;
+            }
+            footer .footer-header{
+                padding: 0rem,0.5rem;
+            }
+        }
