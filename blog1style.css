@@ -95,11 +95,14 @@ header .welcome-quote h1{
             font-size: 0.7em
         }
         body{
-            display: inline
+            display: inline;
+            overflow-wrap: break-word;
+            object-fit: contain;
+            
             
          }
          section{
-             font-size: 16px;
+             font-size: 13px;
          }
 
         .content{
@@ -110,27 +113,17 @@ header .welcome-quote h1{
               font-size: 12px;
           }
         
-        
+          .facts{
+              box-sizing: border-box;
+          }
           
-        
-         footer{
-            body{
-                display: inline
-             }
-              header{
-                  font-size: 0.7em;
-              }
-              .wip{
-                  font-size: 14px;
-              }
-             margin-left: 1.5rem;
-             margin-right: 1.1rem;
-            
-         }
-         footer .footer-header{
-             padding: 0rem,0.5rem;
-         }
-         footer ul{
-             transform: translateX(-7px);
-         }
-     }
+          footer{
+           
+            text-align: center;
+            box-sizing: border-box;
+          }
+
+        footer .footer-header{
+            padding: 0rem,0.5rem;
+        }
+    }
