@@ -80,9 +80,17 @@ nav ul li a{
  .intro{
      padding: 2rem, 0rem;
      display: flex;
-     justify-content: center;
-     background-color: grey;     overflow: auto;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: grey;   
+       overflow: auto;
+    
     }
+    .intro .intro-main{
+        margin-right: 2rem;
+    
+    }
+   
  
  
  
@@ -114,7 +122,9 @@ nav ul li a{
  }
  .intro .test123{
     text-align: center;
-     padding: 1rem,1.5rem;
+    padding-right: 3rem;
+    overflow-wrap: break-word;
+    
  }
  
     
@@ -220,7 +230,7 @@ nav ul li a{
     color: white;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
     nav ul li{
         display: block;
     }
@@ -229,7 +239,10 @@ nav ul li a{
     }
     nav{
         margin: 1rem,1.5rem;
-        height: auto
+        
+    }
+    #top{
+        margin-right: 3rem;
     }
     header h1{
         font-size: 1.7em;
@@ -247,6 +260,9 @@ nav ul li a{
         
        
         
+    }
+    .wip{
+        text-align: center;
     }
     .intro img{
         width: 230px;
@@ -274,6 +290,7 @@ nav ul li a{
     .test123{
         padding-left: 1rem;
         padding-right: 1rem;
+        
     }
     .footer{
         padding-left: 1rem;
